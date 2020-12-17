@@ -1,0 +1,49 @@
+{
+    "_id" : ObjectId("5fd961522dc3a94d368dc6c1"),
+    "Username" : "Kline Sauer",
+    "Password" : "goat",
+    "email" : "klinesauer@yahoo.com",
+    "Birthday" : ISODate("1993-09-10T00:00:00Z"),
+    "FavoriteMovies" : [
+            ObjectId("5fd9607e2dc3a94d368dc6b8"),
+            ObjectId("5fd9613a2dc3a94d368dc6c0")
+    ]
+}
+{
+    "_id" : ObjectId("5fd9615a2dc3a94d368dc6c2"),
+    "Username" : "Nathielle Rose",
+    "Password" : "Brazil",
+    "email" : "nathiellerose@yahoo.com",
+    "Birthday" : ISODate("1994-03-20T00:00:00Z"),
+    "FavoriteMovies" : [
+            ObjectId("5fd960cc2dc3a94d368dc6bb")
+    ]
+}
+{
+    "_id" : ObjectId("5fd961702dc3a94d368dc6c3"),
+    "Username" : "Payne Sauer",
+    "Password" : "fart",
+    "email" : "paynesauer@yahoo.com",
+    "Birthday" : ISODate("1990-09-22T00:00:00Z"),
+    "FavoriteMovies" : [
+            ObjectId("5fd9611c2dc3a94d368dc6be")
+    ]
+}
+{
+    "_id" : ObjectId("5fd9617e2dc3a94d368dc6c4"),
+    "Username" : "Mark Sauer",
+    "Password" : "super",
+    "email" : "marksauer@yahoo.com",
+    "Birthday" : ISODate("1956-12-07T00:00:00Z"),
+    "FavoriteMovies" : [
+            ObjectId("5fd9610c2dc3a94d368dc6bd")
+    ]
+}
+{
+    "_id" : ObjectId("5fda9ea22dc3a94d368dc6c8"),
+    "Username" : "Cheries Sauer",
+    "Password" : "panda",
+    "email" : "cheriessauer@yahoo.com",
+    "Birthday" : ISODate("1957-06-19T00:00:00Z"),
+    "FavoriteMovies" : [ ]
+}
