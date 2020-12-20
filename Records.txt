@@ -319,4 +319,4 @@ db.users.update(
   { $push: { Password: ObjectId("5fd960cc2dc3a94d368dc6bb") } }
 )
 
-db.movies.remove({ "user5": "Cheries Sauer" })
+db.users.remove({ "_id" : ObjectId("5fda9dfe2dc3a94d368dc6c7") })

@@ -1,3 +1,4 @@
+
 const express = require("express"),
   morgan = require("morgan"),
   bodyParser = require("body-parser"),
@@ -56,7 +57,7 @@ app.get("/movies/:Title", function (req, res) {
 app.get("/movies/director/:Name", function (req, res) {
   Movies.findOne({ "Director.Name": req.params.Name })
     .then(function (movies) {
-      res.json(movies);
+      res.json(movies.Director);
     })
     .catch(function (err) {
       console.error(err);
@@ -243,7 +244,7 @@ app.delete(
   }
 );
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 app.listen(port, "0.0.0.0", function () {
-  console.log("Listening on port 8080");
+  console.log("Listening on port 3000");
   });
