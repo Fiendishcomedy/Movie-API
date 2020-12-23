@@ -320,3 +320,5 @@ db.users.update(
 )
 
 db.users.remove({ "_id" : ObjectId("5fda9dfe2dc3a94d368dc6c7") })
+
+mongo "mongodb+srv://cluster0.qs9lj.mongodb.net/myFlixDB" --username kline
