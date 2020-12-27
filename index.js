@@ -11,11 +11,11 @@ const Users = Models.User;
 const passport = require('passport');
 require('./passport');
 // local connection
-mongoose.connect("mongodb://localhost:27017/myFlixDB", {useNewUrlParser: true});
-// mongoose.connect(
-//   "mongodb+srv://myflixdbadmin:genericpw@startercluster-piq8s.mongodb.net/myFlixDB?retryWrites=true&w=majority",
-//   { useNewUrlParser: true }
-// );
+//mongoose.connect("mongodb://localhost:27017/myFlixDB", {useNewUrlParser: true});
+mongoose.connect(
+  "mongodb+srv://kline:kline@cluster0.qs9lj.mongodb.net/myFlixDB?retryWrites=true&w=majority",
+  { useNewUrlParser: true }
+);
 
 app.use(morgan("common"));
 app.use(express.static("public"));
